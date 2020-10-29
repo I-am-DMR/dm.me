@@ -33,7 +33,7 @@ export default function cv() {
               <h4 className="organization">Enunui technologies</h4>
             </div>
             <div className="col-md-6">
-              <span className="period">12/2017 - Present</span>
+              <span className="period">14 Days</span>
             </div>
           </div>
           <p className="text-muted">

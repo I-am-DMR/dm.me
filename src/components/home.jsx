@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ButtonA from './Button/ButtonA'
 import Nav from './nav'
 export default function Home() {
     return (
@@ -16,9 +16,7 @@ export default function Home() {
           Hello! I am DEVA MAKEH. I work as platform developer. I have passion
           for pixel perfect, minimal and easy to use interfaces.
         </p>
-        <a className="btn btn-outline-primary" role="button" href="#">
-          Hire me
-        </a>
+        <ButtonA Name="Hire me"/>
       </div>
     </div>
   </section>
@@ -56,9 +54,7 @@ export default function Home() {
     <div className="container">
       <div className="d-flex justify-content-center align-items-center content">
         <h3>Like what you see?</h3>
-        <button className="btn btn-outline-primary btn-lg" type="button">
-          Hire me
-        </button>
+        <ButtonA Name="Hire me"/>
       </div>
     </div>
   </section>

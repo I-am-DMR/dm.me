@@ -26,15 +26,15 @@ export default function nav() {
             <Link className="nav-link" to="/cv">CV</Link>
           </li>
         </ul>
-        <span className="navbar-text actions">
-          {" "}
-          <a className="login" href="#">
-            Log In
-          </a>
-          <a className="btn btn-light action-button" role="button" href="#">
-            Sign Up
-          </a>
-        </span>
+          {/* <span className="navbar-text actions">
+            {" "}
+            <a className="login" href="#">
+              Log In
+            </a>
+            <a className="btn btn-light action-button" role="button" href="#">
+              Sign Up
+            </a>
+          </span> */}
       </div>
     </div>
   </nav>

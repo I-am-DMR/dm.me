@@ -1,43 +1,10 @@
 import React from 'react'
 
-export default function Body() {
+import Nav from './nav'
+export default function Home() {
     return (
         <div>
            <main className="page lanidng-page">
-  <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
-    <div className="container">
-      <a className="navbar-brand" href="#">
-        Deva Makesh
-      </a>
-      <button
-        data-toggle="collapse"
-        className="navbar-toggler"
-        data-target="#navcol-1"
-      >
-        <span className="sr-only">Toggle navigation</span>
-        <span className="navbar-toggler-icon" />
-      </button>
-      <div className="collapse navbar-collapse" id="navcol-1">
-        <ul className="nav navbar-nav mr-auto">
-          <li className="nav-item" />
-          <li className="nav-item">
-            <a className="nav-link" href="cv.html">
-              CV
-            </a>
-          </li>
-        </ul>
-        <span className="navbar-text actions">
-          {" "}
-          <a className="login" href="#">
-            Log In
-          </a>
-          <a className="btn btn-light action-button" role="button" href="#">
-            Sign Up
-          </a>
-        </span>
-      </div>
-    </div>
-  </nav>
   <section className="portfolio-block block-intro">
     <div
       className="avatar"
@@ -136,7 +103,6 @@ export default function Body() {
     </div>
   </section>
 </main>
-
 
         </div>
     )

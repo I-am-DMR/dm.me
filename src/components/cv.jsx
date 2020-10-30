@@ -4,7 +4,6 @@ export default function cv() {
     return (
         <div>
             <main className="page cv-page">
-  
   <section className="portfolio-block cv">
     <div className="container">
       <div className="work-experience group">

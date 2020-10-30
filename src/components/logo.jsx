@@ -20,7 +20,7 @@ export default function logo() {
           color: "rgb(0,0,0)"
         }}
       >
-        Hello! I am DEVA MAKEH. I work as platform developer. I have passion for
+        Hello! I am DEVA MAKESH. I work as platform developer. I have passion for
         pixel perfect, minimal and easy to use interfaces.
       </p>
       <a

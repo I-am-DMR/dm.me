@@ -16,7 +16,7 @@ export default function Home() {
         Hello! I am DEVA MAKEH. I work as platform developer. I have passion for
         pixel perfect, minimal and easy to use interfaces.
       </p>
-      <a className="btn btn-outline-primary" role="button" href="#">
+      <a className="btn btn-outline-primary" role="button" href="https://www.linkedin.com/in/devamakeshr/">
         Hire me
       </a>
     </div>

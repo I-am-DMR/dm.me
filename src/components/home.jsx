@@ -5,21 +5,24 @@ export default function Home() {
     return (
         <div>
            <main className="page lanidng-page">
-  <section className="portfolio-block block-intro">
-    <div
-      className="avatar"
-      style={{ backgroundImage: 'url("assets/img/avatars/avatar.jpg")' }}
-    />
-    <div className="container">
-      <div className="about-me">
-        <p>
-          Hello! I am DEVA MAKEH. I work as platform developer. I have passion
-          for pixel perfect, minimal and easy to use interfaces.
-        </p>
-        <ButtonA Name="Hire me"/>
-      </div>
+           <section className="portfolio-block block-intro">
+  <div
+    className="rubberBand animated avatar"
+    style={{ backgroundImage: 'url("assets/img/avatars/avatar.jpg")' }}
+  />
+  <div className="container">
+    <div className="about-me">
+      <p>
+        Hello! I am DEVA MAKEH. I work as platform developer. I have passion for
+        pixel perfect, minimal and easy to use interfaces.
+      </p>
+      <a className="btn btn-outline-primary" role="button" href="#">
+        Hire me
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
   <section className="portfolio-block photography">
     <div className="container">
       <div className="row no-gutters">

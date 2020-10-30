@@ -37,9 +37,9 @@ export default function cv() {
             </div>
           </div>
           <p className="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
-            velit ultricies, feugiat est sed, efficitur nunc, vivamus vel
-            accumsan dui.
+          It is a start-up company. we are working together on a new social media app.
+Technologies:
+React.js, Node, MongoDB
           </p>
         </div>
       </div>
@@ -52,6 +52,7 @@ export default function cv() {
             <div className="col-md-6">
               <h3>Secondary School</h3>
               <h4 className="organization">Rayar Kalvi Nilayam</h4>
+              <h4 className="organization">81%</h4>
             </div>
             <div className="col-6">
               <span className="period">06/2013 - 04/2014</span>
@@ -67,15 +68,17 @@ export default function cv() {
             <div className="col-md-6">
               <h3>High School</h3>
               <h4 className="organization">Bharathi Matriculation Higher Secondary School</h4>
+              <h4 className="organization">65%</h4>            
             </div>
             <div className="col-6">
               <span className="period">06/2015 - 04/2016</span>
             </div>
           </div>
           <p className="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
-            velit ultricies, feugiat est sed, efficitur nunc, vivamus vel
-            accumsan dui.
+          I think about my high school experience, there are
+          many things that come to mind. Some of them are: good 
+          memories, bad memories, mistakes, lessons, happiness, heartbreak, 
+          misfortune, joy, drama, and most importantly, fun.
           </p>
         </div>
         <div className="item">
@@ -83,15 +86,18 @@ export default function cv() {
             <div className="col-md-6">
               <h3>B.Sc computer science</h3>
               <h4 className="organization">Dr.N.G.P College</h4>
+              <h4 className="organization">63%</h4>
             </div>
             <div className="col-md-6">
               <span className="period">06/2016 - 06/2019</span>
             </div>
           </div>
           <p className="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
-            velit ultricies, feugiat est sed, efficitur nunc, vivamus vel
-            accumsan dui.
+          Life at college is the time when the teenage years end 
+          and we all dive deep into the ocean of new beginnings 
+          and possibilities. This golden period better equips you 
+          for all the challenges you’ll face in life and creates a 
+          strong foundation of knowledge. 
           </p>
         </div>
         <div className="item">
@@ -99,15 +105,14 @@ export default function cv() {
             <div className="col-md-6">
               <h3>M.Sc computer science</h3>
               <h4 className="organization">Sri Krishna College</h4>
+              <h4 className="organization">70%</h4>
             </div>
             <div className="col-md-6">
               <span className="period">06/2019 - Till</span>
             </div>
           </div>
           <p className="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
-            velit ultricies, feugiat est sed, efficitur nunc, vivamus vel
-            accumsan dui.
+           Fun is On Going..... 
           </p>
         </div>
       </div>

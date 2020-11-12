@@ -17,7 +17,7 @@ export default function footer() {
       <a href="https://www.instagram.com/deva_______________._/">
         <i className="icon ion-social-instagram-outline" />
       </a>
-      <a href="https://twitter.com/devamakeshr">
+      <a href="https://twitter.com/devamakesh_">
         <i className="icon ion-social-twitter" />
       </a>
     </div>

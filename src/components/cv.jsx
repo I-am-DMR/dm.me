@@ -13,15 +13,30 @@ export default function cv() {
         <div className="item">
           <div className="row">
             <div className="col-md-6">
+              <h3>Software Developer</h3>
+              <h4 className="organization"> My Game Solution</h4>
+            </div>
+            <div className="col-md-6">
+              <span className="period">12/2020 - till</span>
+            </div>
+          </div>
+          <p className="text-muted">
+            Starting of my career as a Developer. Till I get more knowledge about web development(react,node)
+            on going.....
+          </p>
+        </div>
+        <div className="item">
+          <div className="row">
+            <div className="col-md-6">
               <h3>Platform Developer</h3>
               <h4 className="organization"> Axyya digital solution</h4>
             </div>
             <div className="col-md-6">
-              <span className="period">11/2020 - till</span>
+              <span className="period">11/2020 - 12/2020</span>
             </div>
           </div>
           <p className="text-muted">
-            on going.....
+            Develop some platform for shops and we work B2B config's
           </p>
         </div>
       

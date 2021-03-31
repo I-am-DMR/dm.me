@@ -8,7 +8,7 @@ export default function nav() {
  <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
     <div className="container">
       <a className="navbar-brand" href="#">
-      <Link className="navbar-brand" to="/">Deva Makesh</Link>
+      <Link className="navbar-brand" to="/">Home</Link>
       </a>
       
       <button

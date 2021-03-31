@@ -9,7 +9,7 @@ export default function skill() {
 >
   <div className="container">
     <div className="heading">
-      <h2>Special Skills</h2>
+      <h2 className="shiniF" >Special Skills</h2>
     </div>
     <div className="row">
       <div className="col-md-4">
@@ -58,7 +58,7 @@ export default function skill() {
     </div>
   </div>
   <div className="d-flex justify-content-center align-items-center content">
-    <h3>Like what you see?</h3>
+    <h3 className="shiniF">Like what you see?</h3>
     <button
       className="btn btn-outline-primary btn-lg"
       type="button"

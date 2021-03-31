@@ -1,12 +1,12 @@
-import React from 'react'
-import Body from './components/home'
-import Nav from './components/nav'
-import Footer from './components/footer'
+import React from "react";
+import Body from "./components/home";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 export default function App() {
-    return (
-        <div>
-            <Nav/>
-            <Footer/>
-        </div>
-    )
+  return (
+    <div className="continer">
+      <Nav />
+      <Footer />
+    </div>
+  );
 }

@@ -1,15 +1,24 @@
 import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
-import Cv from "./cv";
-import Home from "./home";
+import Cv from "../components/cv";
+import Home from "../components/home";
+import Blog from "./blog/blog";
 export default function nav() {
   return (
     <div>
-      <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
+      <nav
+        style={{ overflow: "hidden" }}
+        className="navbar navbar-light navbar-expand-md navigation-clean-button stick"
+      >
         <div className="container">
           <a className="navbar-brand" href="#">
             <Link className="navbar-brand" to="/">
               Home
+            </Link>
+          </a>
+         <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/blog">
+              Blog
             </Link>
           </a>
 
@@ -48,6 +57,9 @@ export default function nav() {
         </Route>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/blog">
+          <Blog />
         </Route>
       </Switch>
     </div>

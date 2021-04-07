@@ -40,7 +40,11 @@ export default function nav() {
                   CV
                 </Link>
               </li>
+              
+          
             </ul>
+            <Coffee/>
+
             {/* <span className="navbar-text actions">
             {" "}
             <a className="login" href="#">
@@ -51,6 +55,7 @@ export default function nav() {
             </a>
           </span> */}
           </div>
+          
           
 
         </div>

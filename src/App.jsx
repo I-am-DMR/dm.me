@@ -4,7 +4,7 @@ import Nav from "./screen/nav";
 import Footer from "./components/footer";
 export default function App() {
   return (
-    <div className="continer">
+    <div className="">
       <Nav />
       <Footer />
     </div>

@@ -6,24 +6,35 @@ import Blog from "./blog/blog";
 import Coffee from "../components/coffee/coffee"
 export default function nav() {
   return (
-    <div className="">
+    <div>
       <nav
         style={{ overflow: "hidden" }}
-        className="navbar navbar-light container navbar-expand-md navigation-clean-button stick"
+        className="navbar navbar-light  navbar-expand-md navigation-clean-button stick"
       >
+         <button
+        data-toggle="collapse"
+        className="navbar-toggler"
+        data-target="#navcol-1"
+      >
+        <span className="sr-only">Toggle navigation</span>
+        <span className="navbar-toggler-icon" />
+      </button>
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <Link className="navbar-brand" to="/">
+        <div className="collapse navbar-collapse" id="navcol-1">
+            <ul className="nav navbar-nav mr-auto">
+              <li className="nav-item" >
+            <Link className="nav-link" to="/">
               Home
-            </Link>
-          </a>
-            <Link className="navbar-brand" to="/blog">
+            </Link></li>
+        
+         
+          <li className="nav-item" >
+
+            <Link className="nav-link" to="/blog">
               Blog
             </Link>
-
-          <div className="collapse navbar-collapse" id="navcol-1">
-            <ul className="nav navbar-nav mr-auto">
-              <li className="nav-item" />
+            </li>
+         
               <li className="nav-item">
                 <Link className="nav-link" to="/cv">
                   CV
@@ -43,7 +54,6 @@ export default function nav() {
           
 
         </div>
-        <Coffee/>
 
       </nav>
       <Switch>

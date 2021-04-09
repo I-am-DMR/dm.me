@@ -1,10 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import withTracker from './helpers/withTracker';
+import { BrowserRouter, Route } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Route
+      component={withTracker(App, {
+        /* additional attributes */
+      })}
+    />
   </BrowserRouter>,
-  document.getElementById("root")
+  document.getElementById('root')
 );

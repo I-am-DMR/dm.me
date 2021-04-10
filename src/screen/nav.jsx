@@ -1,8 +1,6 @@
 import React from "react";
-import { Link, Route, Switch } from "react-router-dom";
-import Cv from "../components/cv";
-import Home from "../components/home";
-import Blog from "./blog/blog";
+import { Link} from "react-router-dom";
+
 import Coffee from "../components/coffee/coffee"
 export default function nav() {
   return (
@@ -61,17 +59,7 @@ export default function nav() {
         </div>
 
       </nav>
-      <Switch>
-        <Route exact path="/cv">
-          <Cv />
-        </Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
-        </Route>
-      </Switch>
+    
     </div>
   );
 }

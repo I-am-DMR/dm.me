@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import withTracker from './helpers/withTracker';
+import App from './Analy';
 import { BrowserRouter, Route } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter>
-    <Route
-      component={withTracker(App, {
-        /* additional attributes */
-      })}
-    />
+   <App/>
   </BrowserRouter>,
   document.getElementById('root')
 );

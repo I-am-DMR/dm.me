@@ -14,21 +14,6 @@ export default function MediumCard(props) {
 
   return (
     <Card small className="card-post card-post--1">
-      <div className="card-post__image" style={{ backgroundImage: `url(${props.thumbnail})` }}>
-        <div className="card-post__author d-flex">
-          <a
-            href={props.profilelink}
-            target="_blank"
-            className="card-post__author-avatar card-post__author-avatar--small"
-            style={{
-              backgroundImage: `url(${props.avatar})`
-            }}
-            rel="noopener noreferrer"
-          >
-            Written by {props.author}
-          </a>
-        </div>
-      </div>
       <CardBody>
         <h5 className="card-title">
           <a href={props.link} target="_blank" className="text-fiord-blue" rel="noopener noreferrer">

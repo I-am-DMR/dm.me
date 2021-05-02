@@ -8,7 +8,7 @@ class Slider extends React.Component {
     super(props);
     this.state = { itemRows: [], avatar: '', profileLink: '' };
   }
-  mediumURL = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@devamakeshr';
+  mediumURL = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mrdeva';
 
   componentDidMount() {
     fetch(this.mediumURL)

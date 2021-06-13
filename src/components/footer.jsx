@@ -10,8 +10,8 @@ export default function footer() {
             <a href="/contact">Contact me</a>
           </div>
           <div className="social-icons">
-            <a href="https://www.facebook.com/devamakeshr">
-              <i className="icon ion-social-facebook" />
+            <a href="https://www.linkedin.com/in/devamakeshr">
+              <i className="icon ion-social-linkedin" />
             </a>
             <a href="https://www.instagram.com/mrdm.me/">
               <i className="icon ion-social-instagram-outline" />

@@ -259,7 +259,7 @@ export default function cv() {
                         <i className="icon ion-at icon" />
                       </div>
                       <div className="col-9">
-                        <span>contact@devamakesh.me</span>
+                        <span>devamakeshr@gmail.com</span>
                       </div>
                     </div>
                   </div>

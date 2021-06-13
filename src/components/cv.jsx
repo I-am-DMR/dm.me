@@ -14,11 +14,25 @@ export default function cv() {
               <div className="item">
                 <div className="row">
                   <div className="col-md-6">
+                    <h3>Graduate Trainee</h3>
+                    <h4 className="organization"> Tata Consultancy Services</h4>
+                  </div>
+                  <div className="col-md-6">
+                    <span className="period">06/2021 - Till</span>
+                  </div>
+                </div>
+                <p className="text-muted">
+                 New to corporate company
+                </p>
+              </div>
+              <div className="item">
+                <div className="row">
+                  <div className="col-md-6">
                     <h3>Full stack developer</h3>
                     <h4 className="organization"> PPTS India Pvt Ltd</h4>
                   </div>
                   <div className="col-md-6">
-                    <span className="period">3/2020 - Till</span>
+                    <span className="period">3/2021 - 6/2021</span>
                   </div>
                 </div>
                 <p className="text-muted">

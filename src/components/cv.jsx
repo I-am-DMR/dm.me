@@ -78,7 +78,7 @@ export default function cv() {
                     <h4 className="organization">Enunui technologies</h4>
                   </div>
                   <div className="col-md-6">
-                    <span className="period">10/2018-03/2019</span>
+                    <span className="period">01/2019-03/2019</span>
                   </div>
                 </div>
                 <p className="text-muted">
@@ -146,19 +146,7 @@ export default function cv() {
                   foundation of knowledge.
                 </p>
               </div>
-              <div className="item">
-                <div className="row">
-                  <div className="col-md-6">
-                    <h3>M.Sc computer science</h3>
-                    <h4 className="organization">Sri Krishna College</h4>
-                    <h4 className="organization">70%</h4>
-                  </div>
-                  <div className="col-md-6">
-                    <span className="period">06/2019 - Till</span>
-                  </div>
-                </div>
-                <p className="text-muted">Fun is On Going.....</p>
-              </div>
+              
             </div>
             <div className="group">
               <div className="row">
